@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ titulo }}</h2>
+<ul>
+    {% for d in datos %}
+        {% if d.nombre is defined %}
+            <li>{{ d.nombre }}</li>
+        {% elif d[0] is defined %}
+            <li>{{ d[0] }}</li>
+        {% else %}
+            <li>{{ d }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}
