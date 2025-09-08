@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #000066;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+button {
+    background: #000066;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+button:hover {
+    background: #333399;
+}
